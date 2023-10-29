@@ -13,5 +13,3 @@ if numero_secreto == chute:
      print('\nParabéns! Você acertou!')
 else:
     print('\nVocê errou feio! KKKKK')
-
-
