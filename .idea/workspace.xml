@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="usando format String">
-      <change afterPath="$PROJECT_DIR$/exerc4_criando_string_format.py" afterDir="false" />
+    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="exercício usando format String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698619910960</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="exercício usando format String">
+      <option name="closed" value="true" />
+      <created>1698621238041</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698621238041</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="incrementando com while" />
     <MESSAGE value="renomeando" />
     <MESSAGE value="usando format String" />
-    <option name="LAST_COMMIT_MESSAGE" value="usando format String" />
+    <MESSAGE value="exercício usando format String" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercício usando format String" />
   </component>
 </project>

@@ -1,0 +1,182 @@
+Index: adivinhacao_2_If_Elif.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Jogo de Adivinhação\r\nprint(\"********************************************\")\r\nprint('Jogo de advinhação!')\r\nprint(\"********************************************\")\r\n\r\nnumero_secreto = 5\r\n\r\nchute = int(input('Digite um número de 0 a 10: '))\r\n\r\nprint('\\nNossa!! Você digitou o número ', chute)\r\n\r\nacertou = chute == numero_secreto\r\nmaior   = chute > numero_secreto\r\nmenor   = chute < numero_secreto\r\n\r\nif acertou:\r\n    print('\\nParabéns! Você acertou! Seu dia será ótimo!')\r\nelse:\r\n    if maior:\r\n        print('\\nVocê errou feio! Seu número é maior que o Número secreto!!!')\r\n\r\n    elif menor:\r\n        print('\\nVocê errou feio! Seu número é menor que o Número secreto!!!')\r\n\r\nprint('\\nFim de jogo!')\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/adivinhacao_2_If_Elif.py b/adivinhacao_2_If_Elif.py
+--- a/adivinhacao_2_If_Elif.py	(revision ac5046c187482bb6f6a183c213d07cd14edf51cf)
++++ b/adivinhacao_2_If_Elif.py	(date 1698610760131)
+@@ -13,6 +13,7 @@
+ maior   = chute > numero_secreto
+ menor   = chute < numero_secreto
+ 
++
+ if acertou:
+     print('\nParabéns! Você acertou! Seu dia será ótimo!')
+ else:
+Index: adivinhacao_2.py
+===================================================================
+diff --git a/adivinhacao_2.py b/adivinhacao_2.py
+deleted file mode 100644
+--- a/adivinhacao_2.py	(revision ac5046c187482bb6f6a183c213d07cd14edf51cf)
++++ /dev/null	(revision ac5046c187482bb6f6a183c213d07cd14edf51cf)
+@@ -1,25 +0,0 @@
+-# Jogo de Adivinhação
+-print("********************************************")
+-print('Jogo de advinhação!')
+-print("********************************************")
+-
+-numero_secreto = 5
+-
+-chute = int(input('Digite um número de 0 a 10: '))
+-
+-print('\nNossa!! Você digitou o número ', chute)
+-
+-acertou = chute == numero_secreto
+-maior   = chute > numero_secreto
+-menor   = chute < numero_secreto
+-
+-if acertou:
+-    print('\nParabéns! Você acertou! Seu dia será ótimo!')
+-else:
+-    if maior:
+-        print('\nVocê errou feio! Seu número é maior que o Número secreto!!!')
+-
+-    elif menor:
+-        print('\nVocê errou feio! Seu número é menor que o Número secreto!!!')
+-
+-print('\nFim de jogo!')
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"290550ac-5b34-454b-b9a5-ae5c0bd46811\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2XPcgbvs4RxRq5KNILTcshxo0ts\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"__init__\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"jogos\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.2/python_stubs/113305191/_testcapi\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.2/python_stubs/113305191/_testcapi/__init__.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.__init__\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"290550ac-5b34-454b-b9a5-ae5c0bd46811\" name=\"Changes\" comment=\"\" />\r\n      <created>1698534273036</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1698534273036</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ac5046c187482bb6f6a183c213d07cd14edf51cf)
++++ b/.idea/workspace.xml	(date 1698609182681)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="" />
++    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
++      <change afterPath="$PROJECT_DIR$/faixa_etaria.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -29,30 +32,9 @@
+   }
+ }</component>
+   <component name="RunManager">
+-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="jogos" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.2/python_stubs/113305191/_testcapi" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.2/python_stubs/113305191/_testcapi/__init__.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.__init__" />
++        <item itemvalue="Python." />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -65,6 +47,73 @@
+       <option name="presentableId" value="Default" />
+       <updated>1698534273036</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Concatenando variáveis">
++      <option name="closed" value="true" />
++      <created>1698546437824</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1698546437824</updated>
++    </task>
++    <task id="LOCAL-00002" summary="usando if e elif">
++      <option name="closed" value="true" />
++      <created>1698608372288</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1698608372288</updated>
++    </task>
++    <task id="LOCAL-00003" summary="usando if e elif rename">
++      <option name="closed" value="true" />
++      <created>1698608801803</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1698608801803</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
++      <option name="closed" value="true" />
++      <created>1698608849449</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1698608849449</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
++      <option name="closed" value="true" />
++      <created>1698608942015</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1698608942015</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
++      <option name="closed" value="true" />
++      <created>1698608977876</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1698608977876</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Concatenando variáveis" />
++    <MESSAGE value="usando if e elif" />
++    <MESSAGE value="usando if e elif rename" />
++    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
++    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
++  </component>
+ </project>
+\ No newline at end of file
+diff --git a/exerc1_concatenacao.py b/concatenacao.py
+rename from exerc1_concatenacao.py
+rename to concatenacao.py
