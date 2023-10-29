@@ -13,6 +13,7 @@ acertou = chute == numero_secreto
 maior   = chute > numero_secreto
 menor   = chute < numero_secreto
 
+
 if acertou:
     print('\nParabéns! Você acertou! Seu dia será ótimo!')
 else:
