@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment=" exercício com if e else">
-      <change afterPath="$PROJECT_DIR$/adivinhacao_3_while.py" afterDir="false" />
+    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="incrementando com while">
+      <change afterPath="$PROJECT_DIR$/exer3_despertador_while.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698611122127</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="incrementando com while">
+      <option name="closed" value="true" />
+      <created>1698615172605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698615172605</updated>
+    </task>
+    <task id="LOCAL-00012" summary="incrementando com while">
+      <option name="closed" value="true" />
+      <created>1698615224799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698615224799</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +163,7 @@
     <MESSAGE value="usando if e elif rename" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value=" exercício com if e else" />
-    <option name="LAST_COMMIT_MESSAGE" value=" exercício com if e else" />
+    <MESSAGE value="incrementando com while" />
+    <option name="LAST_COMMIT_MESSAGE" value="incrementando com while" />
   </component>
 </project>
