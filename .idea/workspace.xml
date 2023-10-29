@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="incrementando com while">
-      <change afterPath="$PROJECT_DIR$/exer3_despertador_while.py" afterDir="false" />
+    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="usando format String">
+      <change afterPath="$PROJECT_DIR$/exerc4_criando_string_format.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698615224799</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="renomeando">
+      <option name="closed" value="true" />
+      <created>1698618182017</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698618182017</updated>
+    </task>
+    <task id="LOCAL-00014" summary="renomeando">
+      <option name="closed" value="true" />
+      <created>1698618343951</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698618343951</updated>
+    </task>
+    <task id="LOCAL-00015" summary="usando format String">
+      <option name="closed" value="true" />
+      <created>1698619910960</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698619910960</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +188,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value=" exercício com if e else" />
     <MESSAGE value="incrementando com while" />
-    <option name="LAST_COMMIT_MESSAGE" value="incrementando com while" />
+    <MESSAGE value="renomeando" />
+    <MESSAGE value="usando format String" />
+    <option name="LAST_COMMIT_MESSAGE" value="usando format String" />
   </component>
 </project>
