@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="Do while para o For">
-      <change afterPath="$PROJECT_DIR$/adivinhacao_6_break_continue.py" afterDir="false" />
+    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="Utilizando o break e o continue">
+      <change afterPath="$PROJECT_DIR$/exerc6_while_com_break_continue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698710060104</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Utilizando o break e o continue">
+      <option name="closed" value="true" />
+      <created>1698711948098</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698711948098</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +232,7 @@
     <MESSAGE value="exercício usando format String" />
     <MESSAGE value="incrementando o laço com FOR e randint para número aleatório" />
     <MESSAGE value="Do while para o For" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do while para o For" />
+    <MESSAGE value="Utilizando o break e o continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilizando o break e o continue" />
   </component>
 </project>
