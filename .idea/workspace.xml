@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="Formatação de Strings">
+    <list default="true" id="290550ac-5b34-454b-b9a5-ae5c0bd46811" name="Changes" comment="implementando nível de dificuldades com if e elif">
+      <change afterPath="$PROJECT_DIR$/adivinhacao_7_definindo_pontos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adivinhacao_6_break_continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/adivinhacao_6_break_continue.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698718740261</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="implementando nível de dificuldades com if e elif">
+      <option name="closed" value="true" />
+      <created>1698792536717</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698792536717</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +258,7 @@
     <MESSAGE value="Do while para o For" />
     <MESSAGE value="Utilizando o break e o continue" />
     <MESSAGE value="Formatação de Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatação de Strings" />
+    <MESSAGE value="implementando nível de dificuldades com if e elif" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando nível de dificuldades com if e elif" />
   </component>
 </project>
